@@ -44,12 +44,6 @@ This is the **mobile frontend** for BlaBla. The complete system includes several
 | Component | Repository |
 |-----------|-----------|
 | Mobile App | [blabla-mobile](https://github.com/SaaS-MVP-Master/mobile-mvp-test) |
-| Posts API | [blabla-api-posts](https://github.com/JaeWangL/blabla-api-posts) |
-| Location API | [blabla-api-location](https://github.com/JaeWangL/blabla-api-location) |
-| Chat API | [blabla-api-chat](https://github.com/JaeWangL/blabla-api-chat) |
-| Upload API | [blabla-api-upload](https://github.com/JaeWangL/blabla-api-upload) |
-| Infrastructure Config | [blabla-infra-config](https://github.com/JaeWangL/blabla-infra-config) |
-| Service Discovery | [blabla-infra-discovery](https://github.com/JaeWangL/blabla-infra-discovery) |
 
 **Architecture**: Microservices with Azure cloud infrastructure
 
