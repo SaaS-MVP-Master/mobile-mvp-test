@@ -1,21 +1,59 @@
 # BlaBla Mobile
 
-BlaBla is location-based social media service. This release intends to share a simplified version of Expo apps and Microservice architecture
+**BlaBla** is a location-based social media application built with **React Native** and **Expo**. This project demonstrates a complete mobile application with real-time communication, location tracking, and social features integrated with a microservice backend architecture.
 
-# BlaBla Repos
+## Overview
 
-For running this BlaBla mobile application, I built several back-end services with microservice architecture with Azure. You
-can find all BlaBla repos in the following locations:
+BlaBla allows users to:
+- Share location-based posts with nearby users
+- Real-time chat and messaging
+- Discover and interact with posts in their area
+- Manage their profile and preferences
+- Archive and view post history
 
-- [Mobile](https://github.com/JaeWangL/blabla-mobile)
-- [Service - Posts API](https://github.com/JaeWangL/blabla-api-posts)
-- [Service - Location API](https://github.com/JaeWangL/blabla-api-location)
-- [Service - Chat API](https://github.com/JaeWangL/blabla-api-chat)
-- [Service - Upload API](https://github.com/JaeWangL/blabla-api-upload)
-- [Infrastructure - Config](https://github.com/JaeWangL/blabla-infra-config)
-- [Infrastructure - Discovery](https://github.com/JaeWangL/blabla-infra-discovery)
+## Tech Stack
 
-**Note:** This document is about the apps using **React Native Expo**.
+- **Frontend**: React Native (Expo)
+- **Language**: TypeScript
+- **State Management**: Recoil
+- **Real-time**: WebSocket
+- **Localization**: i18n
+
+## Project Structure
+
+```
+src/
+├── components/      # Reusable UI components
+├── screens/        # Screen/page components
+├── navigation/     # Navigation configuration
+├── services/       # API & service layer
+├── hooks/         # Custom React hooks
+├── recoils/       # Recoil state management
+├── dtos/          # Data transfer objects
+├── configs/       # Configuration files
+├── utils/         # Utility functions
+├── helpers/       # Helper functions
+├── i18n/          # Internationalization
+└── themes.ts      # Theme configuration
+```
+
+## Related Repositories
+
+This is the **mobile frontend** for BlaBla. The complete system includes several backend microservices:
+
+| Component | Repository |
+|-----------|-----------|
+| Mobile App | [blabla-mobile](https://github.com/SaaS-MVP-Master/mobile-mvp-test) |
+| Posts API | [blabla-api-posts](https://github.com/JaeWangL/blabla-api-posts) |
+| Location API | [blabla-api-location](https://github.com/JaeWangL/blabla-api-location) |
+| Chat API | [blabla-api-chat](https://github.com/JaeWangL/blabla-api-chat) |
+| Upload API | [blabla-api-upload](https://github.com/JaeWangL/blabla-api-upload) |
+| Infrastructure Config | [blabla-infra-config](https://github.com/JaeWangL/blabla-infra-config) |
+| Service Discovery | [blabla-infra-discovery](https://github.com/JaeWangL/blabla-infra-discovery) |
+
+**Architecture**: Microservices with Azure cloud infrastructure
+
+**Note:** This document is about the mobile apps using **React Native Expo**.
 
 # Application Diagram
 
